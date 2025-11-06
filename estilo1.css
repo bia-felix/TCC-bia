@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: 'Lobster Two', sans-serif;
+
+}
+
+
+.banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: pink;
+    padding: 30px 20px;
+    height: 200px;
+  }
+  
+  .titulo {
+    margin-top: 2rem;
+    color: pink;
+  
+    font-size: 20px;
+  
+    font-weight: 600;
+  
+  }
+  
+  .sub_titulo {
+  
+    color: palevioletred;
+  
+    font-size: 20px;
+  
+    font-weight: 400;
+  
+    margin-top: 10px;
+  
+  }
+  
+  .perfis {
+  
+    background-color: pink;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 6rem;
+    color: palevioletred;
+    flex: 1 1 calc(33.333% - 2rem);
+    /* 3 por linha */
+  
+  }
+  
+  .perfis-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  
+  .perfis img {
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  
+  .perfir {
+  
+    background-color: pink;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 6rem;
+    color: palevioletred;
+    flex: 1 1 calc(33.333% - 2rem);
+    /* 3 por linha */
+  
+  }
+  
+  .perfir-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  
+  
+  .perfir img {
+    width: 50%;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 3rem;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+  .button {
+    width: 90px;
+    position: center;;
+    border-radius: 4px;
+    border: none;
+    background-color: palevioletred;
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    margin: 6rem;
+    font-family: 'Lobster Two', sans-serif;
+  }
+   .button_container {
+    display: flex;
+    justify-content: center; 
+  
+  }
+  .button a {
+  text-decoration: none;
+  color: white;
+  
+  }
+  .button:hover {
+  background-color: pink;
+  }
+  

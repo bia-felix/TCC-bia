@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Lobster Two', sans-serif;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgba(255, 192, 203, 1) 0%, rgba(255, 182, 193, 1) 35%, rgba(219, 112, 147, 1) 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    background: palevioletred;
+    padding: 60px;
+    border-radius: 60px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    /* opcional, deixa a frase mais destacada */
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+
+}
+
+button {
+    background: pink;
+    color: palevioletred;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.div-centraliza {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opcional, para centralizar verticalmente */
+}

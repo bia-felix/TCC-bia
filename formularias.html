@@ -1,0 +1,30 @@
+<!Doctype html>
+<html lang "pt-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title> formulario </title>
+    <link rel="stylesheet" href="stylerias.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <form action="acessa.php" method="POST" onsubmit="return validarFormulario()">
+
+        <label form="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label form="mensagem">Seu relados:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="40" placeholder="Deixe seu relado aqui..."></textarea>
+        <div class="div-centraliza">
+            <div class="button">
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+
+</html>

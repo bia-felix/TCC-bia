@@ -1,0 +1,11 @@
+-- Criar o banco de dados
+CREATE DATABASE IF NOT EXISTS acessar_db;
+USE acessar_db;
+
+-- Criar a tabela de relatos
+CREATE TABLE IF NOT EXISTS relatos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(255) NOT NULL,
+    seu_relado VARCHAR(500),
+    data_publicacao TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

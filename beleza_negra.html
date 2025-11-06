@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title> Beleza Negra</title>
+    <link rel="stylesheet" href="stylebeleza.css" />
+</head>
+
+<body>
+
+    <nav>
+
+        <div class="logo">
+
+            <a href="index1.html">Padrão de beleza </a>
+
+        </div>
+        <ul>
+
+            <li> <a href="index.html"> Linha do tempo</a> </li>
+
+            <li> <a href="rede socias.html">Rede Sociais</a> </li>
+
+            <li> <a href="dados.html"> Dados de impactos</a> </li>
+
+            <li> <a href="beleza_negra.html"> Beleza negra</a></li>
+
+            <li> <a href="valorização.html"> Tecnologia</a></li>
+
+            <li> <a href="relados.html"> Relatos </a> </li>
+        </ul>
+    </nav>
+
+    <div class="banner">
+        <div class="titulo">
+            <h1>Beleza Negra </h1>
+        </div>
+        <div class="sub_titulo">
+            <h4> A beleza negra vai além da aparência: é resistência, identidade e orgulho cultural.</h4>
+
+            <div class="conteudo-container">
+
+                <div class="conteudo">
+                    <h3> 🌻 Beleza Negra: Identidade e Resistência</h3><br>
+                    <h4>A beleza negra é muito mais do que estética: é história,
+                        resistência e afirmação de identidade. Durante muito
+                        tempo, os padrões eurocêntricos dominaram a mídia e
+                        ditaram o que era considerado “bonito”. Mas, hoje, a
+                        voz das mulheres e homens negros ecoa cada vez mais
+                        forte, mostrando que beleza não tem um único formato,
+                        tom de pele ou textura de cabelo.</h4>
+                </div>
+                <div class="conteudo">
+                    <h3>🌺 Cabelo e Identidade</h3><br>
+
+                    <h4>O cabelo negro é muito mais do que estética: é um símbolo de ancestralidade, resistência e
+                        afirmação. Cada estilo — seja nas tranças, no black power, nos dreads ou nos twists — carrega
+                        uma história única e coletiva ao mesmo tempo. Assumir o cabelo natural é um ato de orgulho, que
+                        rompe com os padrões impostos e valoriza a diversidade da beleza negra em todas as suas formas.
+                    </h4>
+                </div>
+
+                <div class="conteudo">
+                    <h3>🎨 Estética e Cultura</h3><br>
+                    <h4>A estética negra é expressão de identidade e orgulho.
+                        Os turbantes, as roupas coloridas e as estampas africanas
+                        carregam heranças culturais que resistiram ao tempo e ao
+                        preconceito. A maquiagem que valoriza a pele retinta celebra
+                        a diversidade dos tons de pele e reafirma a beleza que sempre
+                        existiu, mas foi silenciada. Cada detalhe é um manifesto de
+                        liberdade e representatividade.</h4>
+
+
+                </div>
+
+                <div class="conteudo">
+                    <h3>💬 Vozes que Inspiram </h3><br>
+                    <h4>Muitas mulheres negras compartilham suas histórias de aceitação,
+                        mostrando que autoestima não nasce pronta, mas é construída dia após dia.
+                        Essas narrativas ajudam outras pessoas a se reconhecerem como belas e a se
+                        libertarem dos padrões impostos.</h4>
+                </div>
+                <div class="conteudo">
+                    <h3>🌍 Movimento e Representatividade</h3><br>
+                    <h4>Campanhas e movimentos como “Black is Beautiful”, “Orgulho Crespo” e “Beleza Negra Importa”
+                        têm papel fundamental ao quebrar estereótipos e abrir espaço para a diversidade.
+                        A representatividade importa porque, quando uma menina negra vê alguém como ela
+                        sendo reconhecida, aprende a se valorizar também.
+                    </h4>
+                </div>
+
+                <div class="conteudo">
+                    <h3>📸 Galeria de Diversidade</h3><br>
+                    <h4>A beleza negra não cabe em um único retrato. Cada tom de pele, cada sorriso e cada estilo de
+                        cabelo revelam a riqueza de uma cultura plural. Na diversidade, encontramos força e inspiração
+                        para celebrar o que antes foi apagado. Uma galeria de rostos, olhares e cores mostra que ser
+                        negro é ser múltiplo e que toda forma de beleza merece ser vista, reconhecida e valorizada.
+                    </h4>
+                </div><br><br><br><br><br>
+
+
+                <div class="carousel">
+                    <div class="slides">
+                        <img src="Mulher negra com tranças.jfif" alt="Mulher negra com tranças">
+                        <img src="Mulher negra sorrindo.jfif" alt="Mulher negra sorrindo">
+                        <img src="uu.jfif" alt="Mulher negra">
+                        <img src="iza.jfif" alt="Mulher negra ">
+                        <img src="maia.jfif" alt="Mulher negra">
+                        <img src="pa.jfif" alt="Mulher negra ">
+                        <img src="pu.jfif" alt="Mulher negra ">
+                        <img src="po.jfif" alt="Mulher negra ">
+                        <img src="pi.jfif" alt="Mulher negra ">
+                        <img src="ca.jfif" alt="Mulher negra ">
+                        <img src="ce.jfif" alt="Mulher negra ">
+                        <img src="ci.jfif" alt="Mulher negra ">
+                        <img src="co.jfif" alt="Mulher negra ">
+                        <img src="ba.jfif" alt="Mulher negra ">
+                        <img src="be.jfif" alt="Mulher negra ">
+                        <img src="bi.jfif" alt="Mulher negra ">
+
+
+                    </div>
+                    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+                </div>
+
+                <script>
+                    let slideIndex = 0;
+                    const slides = document.querySelector(".slides");
+                    const totalSlides = document.querySelectorAll(".slides img").length;
+
+                    function moveSlide(n) {
+                        slideIndex = (slideIndex + n + totalSlides) % totalSlides;
+                        slides.style.transform = `translateX(${-slideIndex * 100}%)`;
+                    }
+
+                    // Troca automática a cada 4 segundos
+                    setInterval(() => {
+                        moveSlide(1);
+                    }, 4000);
+                </script>
+
+
+
+
+
+
+            </div>
